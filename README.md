@@ -4,7 +4,14 @@ JS-Melange
 Javascript Libraries
 --------------------
 * jQuery
-** jQuery Widgets
+    * Interactions
+        * Draggable
+        * Droppable
+        * Resizable
+        * Selectable
+        * Sortable
+    * Widgets
+        * 
 * JSON
 * AJAX
 * MVx frameworks
@@ -25,3 +32,9 @@ CSS3
 
 Performance
 -----------
+
+
+References
+-----------
+* http://en.wikipedia.org/wiki/Asynchronous_module_definition
+* http://learn.jquery.com/jquery-ui/environments/amd/
