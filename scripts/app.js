@@ -3,15 +3,16 @@
  */
 console.log( "loaded" );
 
-require([ "jquery", "jquery-ui" ], function( $ ) {
+require([ "jquery", "jquery-ui", "bootstrap" ], function( $, ui, bs ) {
     $( "<input>" )
         .autocomplete({ source: [ "One", "Two", "Three" ]})
-        .appendTo( "body" );
+        .appendTo( "#ac_id" );
 
     $( "<input>" )
-        .appendTo( "body" )
+        .appendTo( "#dp_id" )
         .datepicker();
 });
 
-require([ "sample" ], function( $ ) {
+
+require([ "sample" ], function( sample ) {
 });

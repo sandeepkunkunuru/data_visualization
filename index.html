@@ -1,16 +1,27 @@
 <html>
-    <head>
-        <title>jQuery Hello World</title>
-        <!-- data-main attribute tells require.js to load scripts/app.js after require.js loads. -->
-        <script data-main="scripts/app" src="scripts/require.js"></script>
-    </head>
+<head>
+    <title>jQuery Hello World</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/starter-template.css" rel="stylesheet">
+    <!-- data-main attribute tells require.js to load scripts/app.js after require.js loads. -->
+    <script data-main="scripts/app" src="scripts/require.js"></script>
+</head>
 
-    <body>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="/">Java Script Melange</a>
 
-        This is Hello World by HTML
-
-        <div id="msgid">
+        <div class="nav-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="http://tingri.me">Home</a></li>
+            </ul>
         </div>
+    </div>
+</div>
 
-    </body>
+<div id="msg_id"></div>
+<div id="ac_id"></div>
+<div id="dp_id"></div>
+</body>
 </html>
