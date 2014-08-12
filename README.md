@@ -38,3 +38,4 @@ References
 -----------
 * http://en.wikipedia.org/wiki/Asynchronous_module_definition
 * http://learn.jquery.com/jquery-ui/environments/amd/
+* https://github.com/thomasdavis/backbonetutorials/tree/gh-pages/examples/modular-backbone
