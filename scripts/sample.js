@@ -10,7 +10,7 @@
     }
 }(function( $, ui ) {
     $(document).ready(function () {
-        $("#msg_id").html("This is Hello World by JQuery");
+        $("#msg_id").html("Hey there..Welcome to Javascript Melange");
         $( "<input>" )
             .autocomplete({ source: [ "One", "Two", "Three" ]})
             .appendTo( "#ac_id" );

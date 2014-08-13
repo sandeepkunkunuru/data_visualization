@@ -36,6 +36,7 @@ Performance
 
 References
 -----------
+* http://tingri.me/gdocs/index?d=javascript
 * http://en.wikipedia.org/wiki/Asynchronous_module_definition
 * http://learn.jquery.com/jquery-ui/environments/amd/
 * http://backbonetutorials.com/organizing-backbone-using-modules/
