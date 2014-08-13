@@ -1,18 +1,10 @@
-/**
- * Created by sandeep on 8/12/14.
- */
-console.log( "loaded" );
+define([ 'jquery', 'jquery_ui', 'underscore', 'backbone', 'router', 'sample'], function($, ui, _, Backbone, Router){
+    var initialize = function(){
+        // Pass in our Router module and call it's initialize function
+        Router.initialize();
+    }
 
-require([ "jquery", "jquery-ui", "bootstrap" ], function( $, ui, bs ) {
-    $( "<input>" )
-        .autocomplete({ source: [ "One", "Two", "Three" ]})
-        .appendTo( "#ac_id" );
-
-    $( "<input>" )
-        .appendTo( "#dp_id" )
-        .datepicker();
-});
-
-
-require([ "sample" ], function( sample ) {
+    return {
+        initialize: initialize
+    };
 });
