@@ -14,10 +14,13 @@ define([
         render: function(){
             // Using Underscore we can compile our template with data
             var data = {
-                projects: [new ProjectModel()],
+                projects: [new ProjectModel(), new ProjectModel({
+                    url: "#/projects",
+                    title: "Javascript Melange Part 2",
+                    name: "Javascript Melange Part 2"
+                })],
                 _: _
             };
-            console.log(projectListTemplate);
             var compiledTemplate = _.template( projectListTemplate, data );
             // Append our compiled template to this Views "el"
             $(this.el).html( compiledTemplate );
