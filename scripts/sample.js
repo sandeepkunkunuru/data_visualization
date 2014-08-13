@@ -2,13 +2,13 @@
     if ( typeof define === "function" && define.amd ) {
 
         // AMD. Register as an anonymous module.
-        define([ "jquery" ], factory );
+        define([ "jquery", "jquery_ui" ], factory );
     } else {
 
         // Browser globals
-        factory( jQuery );
+        factory( jQuery, jQuery.ui );
     }
-}(function( $ ) {
+}(function( $, ui ) {
     $(document).ready(function () {
         $("#msg_id").html("This is Hello World by JQuery");
         $( "<input>" )

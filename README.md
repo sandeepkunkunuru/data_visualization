@@ -39,3 +39,5 @@ References
 * http://en.wikipedia.org/wiki/Asynchronous_module_definition
 * http://learn.jquery.com/jquery-ui/environments/amd/
 * http://backbonetutorials.com/organizing-backbone-using-modules/
+* http://getfishtank.ca/blog/how-to-use-bootstrap-3-with-requirejs
+* http://jsfiddle.net/ambiguous/wPu6G/
